@@ -1,0 +1,239 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box; /* in this the border will include from the inside the box*/
+}
+/*----------header section-------------*/
+header{
+    display: flex;
+    align-items: center; /* it center child height to center but the direction should be row */
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    gap: 40px;
+}
+
+/*----------Header left section-------------*/
+.headerLeft{
+    display: flex; /* it will align the logo and address in 1 line*/
+    align-items: center; /* it will align the both through center */
+}
+.logo{
+    padding: 20px 30px;
+    border-right: 1px solid #ccc;
+}
+.headerAddress{
+    padding: 22px 30px;
+}
+.headerAddress h3{
+    font-size: 18px;
+}
+.headerAddress p{
+    font-size: 10px;
+}
+
+.user{
+        display: none;
+    }
+
+/*----------Header middle section-------------*/
+.searchBox{
+    flex-grow: 1; /* it is used to strech the box to the remaining space*/
+    background-color: #f8f8f8;
+    display: flex;
+    border: 1px solid #f4f4f4;
+    border-radius: 15px;
+}
+
+.searchBox button{
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+    
+}
+.searchBox input{
+    flex-grow: 1;
+    background-color: transparent;
+    border: none;
+}
+.searchBox input:focus{
+    outline: none;
+}
+
+/*----------Header Right section-------------*/
+
+.headerBtn{
+    display: flex;
+    margin-right: 40px;
+    gap: 40px;
+}
+
+.headerBtn button{
+    font-size: 16px;
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+
+}
+.headerBtn button:last-child{
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #54b226;
+}
+
+/*----------Banner section-------------*/
+
+.bannerSection{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.bannerSection img{
+    width: 100%;
+}
+
+/*----------OrderBanner section-------------*/
+
+.orderBanner{
+    display: flex;
+    max-width: 1280px;
+    margin: auto;
+}
+.orderBannerItems{
+    flex-basis: 27%; /*it will divide the gap in 28%28%28% of the whole gap*/
+    margin: 1%;
+}
+
+.orderBannerItems img{
+    width: 100%;
+}
+
+/*----------category section-------------*/
+
+.categorySection{
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.categoryItems{
+    flex-basis: 10%;
+}
+
+.categoryItems img{
+    width: 100%;
+}
+
+/*----------product section-------------*/
+
+.productSection{
+    max-width: 1280px;
+    margin: auto;
+    padding: 30px 0px 0px 0px;
+
+}
+
+/*----------product  heading section-------------*/
+
+.headingRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headingRow h2{
+    font-size: 22px;
+}
+
+.headingRow a{
+    color: #328839;
+    font-size: 18px;
+}
+
+/*----------product ROW section-------------*/
+
+.productRow{
+    width: 100%;
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+
+}
+
+/*----------product-Items section-------------*/
+
+.productItems{
+    flex-basis: 15%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 2px #ccc;
+    border: 1px solid #ccc;
+    margin-bottom:20px;
+    
+}
+
+.productImg{
+    text-align: center;
+    padding: 15px;
+}
+
+.productImg p{
+    background-color: #f8f8f8;
+    display: flex;
+    width: 60px;
+    gap: 5px;
+    justify-content: center;
+    padding: 2px;
+    align-items: center;
+    font-size: 12px;
+    text-align: left;
+}
+
+.productContent{
+    padding: 15px;
+    padding-top: 0px;
+}
+
+.productContent h3{
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.productContent p{
+    font-size: 13px;
+    color: #848080;
+}
+
+.btn-price-outer{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-price-outer button{
+    background-color: #f7fff9;
+    border: 1px solid #328839;
+    border-radius: 10px;
+    padding: 5px 15px; 
+}
+
+/*-------- Footer section--------------  */
+.footer{
+    background-color: antiquewhite;
+    margin: 20px;
+    text-align: center;
+    color: brown;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.footer h2{
+    color: sandybrown;
+    background-color: blueviolet;
+    padding: 15px;
+    border-radius: 20px;
+}

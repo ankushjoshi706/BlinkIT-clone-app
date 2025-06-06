@@ -1,0 +1,177 @@
+/*this is for making responsive for the mobile */
+@media only screen and (min-width:200px) and (max-width:575px) {
+    /*---------------Header section----------*/
+    header{
+        flex-direction: column; /* this to display as column*/
+        align-items: stretch;
+        padding: 10px;
+        gap: 15px;
+    }
+    /*---------------Header left section----------*/
+    .headerLeft{
+        justify-content: center; /* it will fix the logo and address to the center on mobile screen*/
+    }
+    .logo{
+        padding: 10px;
+    }
+    .headerAddress{
+        padding: 10px;
+    }
+    .headerAddress h3{
+        font-size: 15px;
+    }
+    .headerAddress p{
+        font-size: 12px;
+    }
+    .user{
+        display: none;
+    }
+    /*---------------Header Middle section----------*/
+    .searchBox button{
+        padding: 10px;
+    }
+
+    /*---------------Header Right section----------*/
+    .headerBtn{
+        position: fixed;
+        width: 100%;
+        background-color: white;
+        margin-right: 0px;
+        justify-content: center;
+        bottom: 0px;
+    }
+/*---------------Banner section----------*/
+    .bannerSection{
+        display: none;
+    }
+
+    /*---------------OrderBanner section----------*/
+    .orderBanner{
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    /*---------------category section----------*/
+
+    .categoryItems{
+        flex-basis: 25%;
+    }
+
+    /*---------------Product section----------*/
+
+    .headingRow h2{
+        font-size: 22px;
+    }
+
+    .headingRow a{
+        color: #328832;
+        font-size: 18px;
+    }
+
+    .productSection{
+        padding: 30px 10px;
+
+    }
+    .productItems{
+        flex-basis: 49%;
+    }
+    /*---------------Footer section----------*/
+
+    .footer{
+        margin-bottom: 100px;
+        padding: 10px;
+        
+    }
+
+    .footer h2{
+    color: rgb(213, 228, 12);
+    background-color: rgb(226, 131, 43);
+    padding: 15px;
+    border-radius: 20px;}
+}
+
+@media only screen and (min-width:576px) and (max-width:991px){
+    /*---------------Header section----------*/
+    header{
+        flex-direction: column; /* this to display as column*/
+        align-items: stretch;
+        padding: 10px;
+        gap: 15px;
+    }
+
+    .logo{
+        display: none;
+    }
+    .headerAddress{
+        margin-left: -20px;
+    }
+    .headerAddress br{
+        display: none;
+    }
+
+    .user{
+        display: block;
+        justify-content: end;
+        margin-left: 40%;
+
+    }
+
+    /*---------------Header Right section----------*/
+    .headerBtn{
+        position: fixed;
+        width: 100%;
+        background-color: white;
+        margin-right: 0px;
+        justify-content: center;
+        bottom: 0px;
+    }
+
+    /*---------------Banner section----------*/
+    .bannerSection{
+        display: none;
+    }
+
+    /*---------------OrderBanner section----------*/
+    .orderBanner{
+        display: none;
+    }
+
+    /*---------------category section----------*/
+
+    .categoryItems{
+        flex-basis: 25%;
+    }
+
+    /*---------------Product section----------*/
+
+    .headingRow h2{
+        font-size: 28px;
+    }
+
+    .headingRow a{
+        color: #328832;
+        font-size: 25px;
+    }
+
+    .productSection{
+        padding: 30px 10px;
+
+    }
+    .productItems{
+        flex-basis: 32%;
+    }
+
+    /*---------------Footer section----------*/
+
+    .footer{
+        margin-bottom: 100px;
+        padding: 10px;
+        
+    }
+
+    .footer h2{
+    color: rgb(213, 228, 12);
+    background-color: rgb(43, 168, 226);
+    padding: 15px;
+    border-radius: 20px;}
+}    
